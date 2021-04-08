@@ -2,6 +2,12 @@ package practice.list;
 
 import java.util.List;
 
+/**
+ * 本题一定要注意不要算成整数了再加，长度根本不够，观察可知可以
+ * 对两个链表的节点一个个的进行加法，然后进位，最后连成新的链表
+ * 注意：new ListNode(sum%10)、list2.next = new ListNode(sum%10)以及最后要判断carry是否大于0
+ * 如果大于0则表示还要进一位
+ */
 public class addTwoNumbers1 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode list1 =null;
