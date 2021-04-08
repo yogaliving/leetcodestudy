@@ -1,6 +1,6 @@
 package practice.hash;
 /**
- * 242 本题可以用数组配合ascll码或者使用Arrays.sort和Arrays.equal来做
+ * 242 :q:::
  */
 
 import java.util.Arrays;
