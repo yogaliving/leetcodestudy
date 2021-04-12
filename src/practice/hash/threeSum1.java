@@ -1,4 +1,4 @@
-package practice.array;
+package practice.hash;
 
 import javax.print.attribute.standard.NumberUp;
 import java.util.ArrayList;
